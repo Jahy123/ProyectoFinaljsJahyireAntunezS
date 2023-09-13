@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+#inicio {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#inicio__titulo {
+    margin-bottom: 2%;
+    font-size: 4rem;
+    color: white;
+}
+span {
+    font-style: italic;
+    color: #869f2c;
+}
+#inicio__botonComenzar {
+    font-size: 1rem;
+    background-color: #e2ffa5;
+    width: 8rem;
+    height: 3rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(191 227 62);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.crearOVerNotas {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#crearOVerNotas__boton--regresar {
+    width: 5%;
+height: 5%;
+margin: 2%;
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+#boton__regresar {
+    width: 100%;
+    height: 100%;
+    background-color: #e2ffa5;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(191 227 62);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#crearOVerNotas__boton--crearVer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+#boton__crear, #boton__ver {
+    border: 1px solid white;
+    display: flex;
+    width: 29%;
+    height: 77%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton__crear button {
+    width: 30%;
+    height: 10%;
+    background-color: #e2ffa5;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(191 227 62);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#boton__ver button {
+    width: 30%;
+    height: 10%;
+    background-color: #e2ffa5;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(191 227 62);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#crearNota {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#creaNota__hoja {
+    width: 80%;
+    height: 80%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloNota {
+    border: 1px solid white;
+    color: black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+#parrafoNota {
+    border: 1px solid white;
+    color: black;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    font-size: 1rem;
+}
+#crearNota__botones {
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#crearNota__botonRegresar, #crearNota__botonGuardar {
+    width: 15%;
+    height: 50%;
+    background-color: #e2ffa5;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(191 227 62);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.ocultar {
+    display: none;
+}
