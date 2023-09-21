@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
 }
 
 
@@ -39,7 +40,7 @@ span {
     border-radius: 0.5rem;
     cursor: pointer;
 }
-.crearOVerNotas {
+ #crearOVerNotas {
     background-color: black;
     height: 100vh;
     width: 100%;
@@ -160,6 +161,88 @@ align-items: center;
 #crearNota__botonRegresar, #crearNota__botonGuardar {
     width: 15%;
     height: 50%;
+    background-color: #e2ffa5;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(191 227 62);
+    border-radius: 0.5rem;
+}
+#verNota {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#verNotas--nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 8vh;
+}
+#verNotas--crearNuevaNota {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#verNotas--contenido {
+    display: flex;
+    width: 90%;
+    height: auto;
+    color: #e2ffa5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#verNotas--contenidonull {
+    display: flex;
+    width: 90%;
+    height: 82vh;
+    color: #e2ffa5;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.nota {
+    overflow-y: scroll;
+    width: 100%;
+    height: 15rem;
+    border: 1px solid white;
+    padding: 1%;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.contenido__nota {
+    width: 99%;
+    height: 90%;
+}
+
+#boton__regresar--verNota {
+    margin-right: 46%;
+}
+
+.boton {
+    width: 15%;
+    height: 60%;
     background-color: #e2ffa5;
     cursor: pointer;
     box-shadow: 1px 1px 2px rgb(191 227 62);

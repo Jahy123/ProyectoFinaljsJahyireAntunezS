@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script defer src="./js/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,65 +12,10 @@
     <title>Proyecto final Javascript</title>
 </head>
 
-<body>
+<body id="body">
     <main id="inicio">
         <h1 id="inicio__titulo">Deja de <span>procrastinar </span>y empieza a <span>crear</span>.</h1>
         <button id="inicio__botonComenzar">Comenzar</button>
     </main>
-
-    <section class="ocultar">
-        <div id="crearOVerNotas__boton--regresar">
-            <button id="boton__regresar">Regresar</button>
-        </div>
-        <div id="crearOVerNotas__boton--crearVer">
-            <div id="boton__crear">
-                <button id="botonCrear">Crear nota</button>
-            </div>
-            <div id="boton__ver">
-                <button id="botonVer">Ver notas</button>
-            </div>
-        </div>
-    
-    </section>
-
-    <section class="ocultar">
-        
-            <div id="creaNota__hoja">
-                <input type="text" name="tituloNota" id="tituloNota" placeholder="Titulo">
-                <textarea name="parrafoNota" id="parrafoNota" placeholder="Escribir..." cols="30" rows="10"></textarea>
-            </div>
-            <div id="crearNota__botones">
-                <button id="crearNota__botonRegresar">Regresar</button>
-                <button id="crearNota__botonGuardar">Guardar</button>
-            </div>
-       
-    </section>
-
-    <section class="ocultar">
-        <!-- Si no hay nada agregar en js -->
-        <!-- <p>No hay nada por aquí :(</p> -->
-        <!-- <div>
-                    <button>Regresar</button>
-                </div>
-                <div>
-                    <button>Crear nota</button>
-                </div> -->
-
-
-        <div>
-            <input type="textarea" name="buscador" id="buscador" placeholder="Buscar">
-            <button>Más recientes</button>
-            <button>Más antiguas</button>
-        </div>
-        <div>
-            <button>Regresar</button>
-        </div>
-        <div>
-            <button>Crear nota</button>
-        </div>
-        <div>
-            <!-- Agregar notas existentes desde js -->
-        </div>
-    </section>
 </body>
 </html>
